@@ -1,0 +1,75 @@
+body, html {
+  margin: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: inherit;
+  overflow: scroll;
+  max-width: 800px;
+  margin: 0 auto;
+  background-image: url("background.png");
+}
+
+h1 {
+  font-family: cursive;
+  font-size: 54px;
+  text-align: center;
+  background:red;
+  color:white;
+  border-radius: 100px; 
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+}
+
+p {
+  max-width: 550px;
+  margin: auto;
+  text-align: center;
+  background:rgb(3, 175, 255);
+  border-radius: 100px; 
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+}
+
+form {
+  text-align: center;
+  padding: 20px;
+}
+
+#display {
+  max-width: 500px;
+  margin: auto;
+  text-align: center;
+  background:rgb(3, 175, 255);
+  border-radius: 100px; 
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+}
+
+#checkword {
+  margin: auto;
+  max-width: 400px;
+  color : red;
+  background: linear-gradient(transparent 60%, #ff99cc 0%);
+  font-size: 44px;
+  text-align: center;
+}
+
+#recognition, #checkreco {
+  text-align: center;
+  padding: 20px;
+}
+
+#result {
+  text-align: center;
+  max-width: 300px;
+  margin: auto;
+  background:rgb(3, 175, 255);
+  border-radius: 100px; 
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+}
