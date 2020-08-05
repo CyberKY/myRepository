@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>CHECK PRONUNCIATION</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>English Pronunciation CHECK!!</h1>
+
+<p>以下の入力ボックスに発音を確認したい任意の英単語を一つ記入し、<br>
+    「OK」を押してください。</p>
+<form action="">
+    <input type="text" id="word" value="" placeholder="例) dog">　<!--Enterキーどうしよう-->
+    <input type="button" onclick="selectword()" value="OK">
+</form>
+
+<div id="display"></div>
+<div id="checkword"></div><div id="recognition"></div> <!--<span>の使用を考慮-->
+<div id="result"></div><div id="checkreco"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
